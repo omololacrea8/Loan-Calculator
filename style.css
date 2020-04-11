@@ -1,0 +1,47 @@
+html
+body{
+    background-color: rgb(165, 245, 238);
+  }
+  h1{
+      text-align: center;
+      padding: 5px;
+      color:rgb(3, 61, 66) ;
+  }
+.box{
+    /* Position relative means the element is positioned relative to its normal position, which would be the very top left corner as it is the first div in the body. */
+    /* When the position is set to relative, using display: block; and margin:auto; will automatically center the box horizontally. */
+    position: relative;
+    margin: auto;
+    display: block;
+    border: solid 4px rgb(9, 183, 236);
+    border-radius: 20%;
+    margin-top: 5%;
+    width: 400px;
+    height: 320px;
+    background: none;
+  }
+  
+  /* The width of the div is 50% and the height 67%. This means that the width is 50% of the box and the height 67% of the box. */
+  .calc{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 60%;
+    height: 67%;
+    background: rgb(3, 61, 66); 
+    border-radius: 10%; 
+    padding: 5%;
+    color: white;
+  }
+
+  .foot a{
+      text-decoration: none;
+      margin-bottom: 15px;
+  }
+  footer{
+      text-align: center;
+      
+  }
+  
+  
+  

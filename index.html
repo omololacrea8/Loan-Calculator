@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/olo.PNG" sizes="16*16">
+</head>
+<body> 
+  <div id="title" class="text-center">
+    <h1>Monthly Payment Loan Calculator</h1>
+  </div>
+  <div class="box">
+    <div class="calc">
+      <p>Loan Amount: $<input id="amount" type="number" min="1" max="1000000" onchange="loanCal()"></p>
+      <p>Interest Rate: <input id="interest_rate" type="number" min="0" max="100" value="10" step=".1" onchange="loanCal()">%</p>
+      <p>Months: <input id="months" type="number" min="1" max="72" value="1" step="1" onchange="loanCal()"></p>
+      <h2 id="payment"></h2>
+      </div> <!-- end of calc-->
+  </div> <!-- end of box -->
+  <footer>
+  <div class="foot"> <!-- for footer -->
+      <a href="http://github.com/omololacrea8" target="_blank">Fele Omolola</a>
+    </div> <!-- end footer -->
+  </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
+  
