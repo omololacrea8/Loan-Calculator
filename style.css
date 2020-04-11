@@ -9,6 +9,7 @@ body{
       text-align: center;
       padding: 5px;
       color:rgb(3, 61, 66) ;
+      font-family:'Baloo Paaji 2', cursive;
   }
 .box{
     /* Position relative means the element is positioned relative to its normal position, which would be the very top left corner as it is the first div in the body. */
@@ -35,6 +36,7 @@ body{
     border-radius: 10%; 
     padding: 5%;
     color: white;
+    font-family:'Baloo Paaji 2', cursive;
   }
 
   .foot a{
