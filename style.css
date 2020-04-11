@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
 html
 body{
     background-color: rgb(165, 245, 238);
+    font-family:'Baloo Paaji 2', cursive;
   }
   h1{
       text-align: center;
